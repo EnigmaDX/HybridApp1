@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="js/jquery-3.0.0.js"></script>
+  <title>Engineering - Info@Ashesi</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize/css/materialize.min.css"  
+  media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="top">
+     <a href="index.html"><img id="logo" src="css/images/ashlogo.JPG "></a><span id="heading">Info@Ashesi</span>
+  </div>
+
+  <ul id="slide-out" class="side-nav">
+
+    <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
+    <ul class="collapsible collapsible-accordion">
+      <li>
+        <a class="collapsible-header">Departments<i class="material-icons">arrow_drop_down</i></a>
+        <div class="collapsible-body">
+          <ul>
+            <li><a href="cspage.html">Computer Science</a></li>
+            <li><a href="bapage.html">Business Administration</a></li>
+            <li><a href="mispage.html">Management Information Systems</a></li>
+            <li><a href="engpage.html">Engineering</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+    <li><a href="gallery.html"><i class="material-icons">image</i>Gallery</a></li>
+  </ul>
+  <div class = "nav-wrapper">
+    <a href="#" data-activates="slide-out" class="button-collapse"><i id="hamburg" class="material-icons">menu</i></a>
+    <p id="titele">Engineering Department</p>
+  </div>
+  <div class="divider"></div>
+  <div class="section">
+    <p>
+      The engineers tasked to solve society's problems need a broad range of skills that will allow them to tap into ideas beyond one engineering field; they have to be entrepreneurs who can see through challenges and find solutions within a local context. They must be ethical and responsible, and see the short and long term effects of their decisions on society and the environment. They also have to be leaders who can communicate their ideas and work with teams to solve problems.
+      <p>
+        Ashesi’s Engineering Programme is designed to train such engineers. In addition to engineering specialties (computer, electrical and electronic, or mechanical), there will be a strong emphasis on foundational concepts, systems thinking and problem-solving that cross traditional boundaries. Ashesi’s Engineering graduates will bring the trademark Ashesi strengths—strong ethics, leadership skills, and a commitment to positive change— that will help create a new era of progress in African industry and infrastructure.
+      </p>
+      The goals of Ashesi's engineering programme are:
+
+      <li>Give students broad engineering skills that will enable them solve the challenging problems of our society, and core entrepreneurial skills to think about how to transfer their solutions to the marketplace.
+      </li>
+      <li>
+        Enable students to be creative and critical thinkers to find the best solutions to the problems of our society, even in situations they have never encountered before. Instill in students ethical and responsible behaviours that place doing the right thing for society and the environment above personal or professional gain.
+      </li>
+      <li>
+        Give students strong leadership skills that will enable them lead in solving the problems they encounter, and prepare students with excellent communication skills to enable them to communicate their knowledge and ideas to supervisors, colleagues, customers, and society at large.
+      </li>
+    </p>
+  </div>
+
+  <div class="main">
+    <h5>
+      COURSES
+    </h5>
+    <div class="section2">
+      <h4>
+        Year 1
+      </h4>
+      <ol type="1">
+        <li>Foundations of Design and Entrepreneurship I & II</li>
+        <li>Written & Oral Communication</li>
+        <li>Precalculus I & II/ Calculus I & II</li>
+        <li>Giving Voice to Values</li>
+        <li>Introduction to Computing</li>
+      </ol>
+
+      <h4>
+        Year 2
+      </h4>
+      <ol type="1">
+        <li>Microeconomics</li>
+        <li>Discrete Structures & Theory</li>
+        <li>Finance for Non-Finance Managers</li>
+        <li>Discrete Structures & Theory</li>
+        <li>Macroeconomics</li>
+        <li>Database Systems</li>
+      </ol>
+
+      <h4>
+        Year 3
+      </h4>
+      <ol type="1">
+        <li>Web Technologies</li>
+        <li>Managerial Accounting</li>
+        <li>Systems Analysis and Design</li>
+        <li>IT Infrastructure</li>
+        <li>Systems Administration Laboratory</li>
+        <li>Information Systems Project Management</li>
+      </ol>
+
+      <h4>
+        Year 4
+      </h4>
+      <ol type="1">
+        <li>Information and Systems Security</li>
+        <li>Competitive Strategy</li>
+        <li>Information Systems Strategy, Management & Acquisition</li>
+        <li>MIS Elective / African Studies Elective</li>
+        <li>E-Commerce</li>
+        <li>Entrepreneurship 2 / Thesis 2 / Applied Project / Elective</li>
+      </ol>
+    </div> <!-- section -->
+
+  </body>
+  </html>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Ashesi University College</h5>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Follow Us on Social Media</h5>
+          <ul>
+            <li><a href="https://www.facebook.com/ashesi"><img id="medialink" src="css/images/facebook.png"></a></li>
+            <li><a href="http://www.twitter.com/ashesi"><img id="medialink" src="css/images/twitter.png"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2014 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="css/materialize/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="css/materialize/js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(function()
+    {
+      $(".button-collapse").sideNav({
+        menuWidth: 350
+      });
+    });
+
+  </script>
+
+</body>
+</html>

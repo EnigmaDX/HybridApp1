@@ -9,27 +9,72 @@ h1 {
 	text-align: center;
 }
 
-#logo
+#heading
 {
-	height: 20%;
-	width: 20%;
-	margin-left: 40%;
+	font-size: 310%;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-right: 8%;
+    float: right;
+    color: white;
+    font-family: Ariel;
 }
 
-h2 
+.top
+{
+	background-color: darkred;
+}
+
+#titele 
+{
+	margin-right: 24%;
+    color: white;
+    float: right;
+    font-size: 30px;
+    line-height: 0px;
+}
+
+#logo
+{
+	height: 25%;
+	width: 21%;
+}
+
+.ashimg
+{
+	height: 20%;
+    width: 100%;
+}
+
+h5 
 {
 	color: white;
 	font-weight: bolder;
 	background-color: #990000;
 	text-align: center;
+	font-family: -webkit-body;
+}
+
+#hamburg 
+{
+	font-size: -webkit-xxx-large;
+	margin-top: 1%;
+}
+
+.nav-wrapper 
+{
+	background-color: darkred;
+	height: 60px;
 }
 
 .section {
-	border: 1px solid blue;
+	border: 1px solid darkred;
 	padding-left: 2%;
+	font-size: large;
 }
 
-tr 
-{
-	background-color: red;
+.section2 {
+	border: 1px solid darkred;
+	padding-left: 2%;
+	font-size: large;
 }
